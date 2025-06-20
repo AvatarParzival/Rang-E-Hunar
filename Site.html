@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rang-R-Hunar | Timeless Feminine Style Inspired By Vintage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .nav-link:hover {
+            color: #b38b6d;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .marquee {
+            animation: scroll 20s linear infinite;
+            white-space: nowrap;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        .ribbon {
+            position: absolute;
+            top: 10px;
+            right: -30px;
+            transform: rotate(45deg);
+            width: 120px;
+            padding: 5px 0;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="border-b border-gray-200 sticky top-0 z-50 bg-white">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <h1 class="heading-font text-2xl md:text-3xl font-bold">Rang-E-Hunar</h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="nav-link font-medium">New In!</a>
+                <a href="#" class="nav-link font-medium">Shirts</a>
+                <a href="#" class="nav-link font-medium">Dupattas</a>
+                <a href="#" class="nav-link font-medium">Caps</a>
+            </nav>
+            
+            <div class="flex items-center space-x-4">
+                <button class="text-gray-700">
+                    <i class="fas fa-search text-xl"></i>
+                </button>
+                <button class="text-gray-700">
+                    <i class="fas fa-user text-xl"></i>
+                </button>
+                <button class="text-gray-700 relative">
+                    <i class="fas fa-shopping-bag text-xl"></i>
+                    <span class="absolute -top-2 -right-2 bg-rose-200 text-rose-800 text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="md:hidden hidden bg-white border-b border-gray-200 py-4 px-4">
+        <div class="flex flex-col space-y-4">
+            <a href="#" class="nav-link font-medium">New In!</a>
+            <a href="#" class="nav-link font-medium">Shirts</a>
+            <a href="#" class="nav-link font-medium">Dupattas</a>
+            <a href="#" class="nav-link font-medium">Caps</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 bg-cover bg-center" style="background-image: url('https://i.ibb.co/XrTDbdCJ/Rang-E-Hunar.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+            <div class="text-center px3">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold text-white mb-4">Rang-E-Hunar</h2>
+                <p class="text-xl text-white mb-6">Color of Talent</p>
+                <button class="bg-white text-gray-800 font-medium px-8 py-3 hover:bg-gray-100 transition duration-300">
+                    Shop New Arrivals
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <div class="bg-rose-50 py-4 overflow-hidden">
+        <div class="marquee flex items-center">
+            <div class="flex items-center space-x-12 px-4">
+                <span class="text-gray-700 text-lg">❧ Visit our shop in Portland, Oregon ❧</span>
+                <span class="text-gray-700 text-lg">Shop our selection of thoughtfully crafted hand painted dupattas, shirts, and caps ❧</span>
+                <span class="text-gray-700 text-lg">Unique & one of a kind finds for your wardrobe and home ❧</span>
+            </div>
+            <div class="flex items-center space-x-12 px-4">
+                <span class="text-gray-700 text-lg">❧ Crafted by the talented and the emerging youth ❧</span>
+                <span class="text-gray-700 text-lg">Shop our selection of thoughtfully crafted hand painted dupattas, shirts, and caps ❧</span>
+                <span class="text-gray-700 text-lg">Unique & one of a kind finds for your wardrobe and home ❧</span>
+            </div>
+        </div>
+    </div>
+
+<!-- Featured Products -->
+<section class="py-12 px-4">
+    <div class="container mx-auto">
+        <h2 class="heading-font text-3xl font-bold text-center mb-12">Featured Collection</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-8">
+            <!-- Product 1 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 relative">
+                <div class="relative">
+                    <video class="w-full h-80 object-cover" autoplay muted playsinline>
+                        <source src="./Beige F.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="absolute top-2 left-2 flex space-x-2">
+                        <span class="bg-rose-100 text-rose-800 text-xs px-2 py-1 rounded">Vintage</span>
+                    </div>
+                    <div class="absolute top-0 right-0 overflow-hidden">
+                        <div class="ribbon bg-amber-100 text-amber-800">New Arrival</div>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <p class="text-gray-500 text-sm mb-1">Atèlette</p>
+                    <h3 class="heading-font text-xl font-semibold mb-2">Oakleigh Dress</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Western inspired silhouette black and white cotton gingham midi dress with buttons down the bodice, short, puffed sleeves with bow accents, sash at side of the waist that can be tied in front or back, and full sweeping skirt with...</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-gray-800">$225.00</span>
+                        <button class="text-rose-600 hover:text-rose-800">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 relative">
+                <div class="relative">
+                    <video class="w-full h-80 object-cover" autoplay muted playsinline>
+                        <source src="./Pink F.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="absolute top-2 left-2 flex space-x-2">
+                        <span class="bg-rose-100 text-rose-800 text-xs px-2 py-1 rounded">Modern</span>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <p class="text-gray-500 text-sm mb-1">Modern</p>
+                    <h3 class="heading-font text-xl font-semibold mb-2">Croiselles Gingham Top</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Romantic and feminine vintage inspired black white smocked tiered gingham top featuring sweetheart neckline, elasticated gathered bodice, peplum waist, and puffed sleeves. Semi crop length.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-gray-800">$65.00</span>
+                        <button class="text-rose-600 hover:text-rose-800">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 relative">
+                <div class="relative">
+                    <video class="w-full h-80 object-cover" autoplay muted playsinline>
+                        <source src="./Black F.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="absolute top-2 left-2 flex space-x-2">
+                        <span class="bg-rose-100 text-rose-800 text-xs px-2 py-1 rounded">Modern</span>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <p class="text-gray-500 text-sm mb-1">Modern</p>
+                    <h3 class="heading-font text-xl font-semibold mb-2">Upper Eddy Overalls</h3>
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">Classic and timeless vintage inspired denim overalls in dark medium wash featuring multi patch pocket design on front, side button closures at waist and upper hip, and adjustable straps.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="font-bold text-gray-800">$108.00</span>
+                        <button class="text-rose-600 hover:text-rose-800">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+<div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 relative">
+    <div class="relative">
+        <iframe 
+            class="w-full h-80 object-cover" 
+            src="https://imagekit.io/player/embed/52dfc8s2i/0006-0126.mp4?updatedAt=1750453033494" 
+            title="ImageKit video player" 
+            frameborder="0" 
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" 
+            allowfullscreen>
+        </iframe>
+        <div class="absolute top-2 left-2 flex space-x-2">
+            <span class="bg-rose-100 text-rose-800 text-xs px-2 py-1 rounded">Modern</span>
+        </div>
+    </div>
+    <div class="p-4">
+        <p class="text-gray-500 text-sm mb-1">Modern</p>
+        <h3 class="heading-font text-xl font-semibold mb-2">Thomasin Striped Shorts</h3>
+        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Effortless and easy to wear linen and cotton summer shorts in charcoal pinstripe with elasticated waistband and side pockets. Slips on for wear.</p>
+        <div class="flex justify-between items-center">
+            <span class="font-bold text-gray-800">$48.00</span>
+            <button class="text-rose-600 hover:text-rose-800">
+                <i class="fas fa-heart"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- Product 5 -->
+<div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 relative">
+    <div class="relative">
+        <img class="w-full h-80 object-cover" src="./Serene Elegance in Traditional Wear.png" alt="Floral Dupatta">
+        <div class="absolute top-2 left-2 flex space-x-2">
+            <span class="bg-rose-100 text-rose-800 text-xs px-2 py-1 rounded">Handmade</span>
+        </div>
+    </div>
+    <div class="p-4">
+        <p class="text-gray-500 text-sm mb-1">Dupatta</p>
+        <h3 class="heading-font text-xl font-semibold mb-2">Floral Dupatta</h3>
+        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Beautiful hand-painted floral dupatta with intricate designs and vibrant colors, perfect for traditional outfits.</p>
+        <div class="flex justify-between items-center">
+            <span class="font-bold text-gray-800">$45.00</span>
+            <button class="text-rose-600 hover:text-rose-800">
+                <i class="fas fa-heart"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Product 6 -->
+<div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 relative">
+    <div class="relative">
+        <img class="w-full h-80 object-cover" src="./Radiance in Beige and Blooms.png" alt="Embroidered Cap">
+        <div class="absolute top-2 left-2 flex space-x-2">
+            <span class="bg-rose-100 text-rose-800 text-xs px-2 py-1 rounded">Handmade</span>
+        </div>
+    </div>
+    <div class="p-4">
+        <p class="text-gray-500 text-sm mb-1">Cap</p>
+        <h3 class="heading-font text-xl font-semibold mb-2">Embroidered Cap</h3>
+        <p class="text-gray-600 text-sm mb-4 line-clamp-2">Stylish hand-embroidered cap with traditional motifs, perfect for adding a cultural touch to your outfits.</p>
+        <div class="flex justify-between items-center">
+            <span class="font-bold text-gray-800">$35.00</span>
+            <button class="text-rose-600 hover:text-rose-800">
+                <i class="fas fa-heart"></i>
+            </button>
+        </div>
+    </div>
+</div>
+</div>
+
+        <div class="text-center mt-12">
+            <button class="border border-gray-800 text-gray-800 font-medium px-8 py-3 hover:bg-gray-800 hover:text-white transition duration-300">
+                View All Products
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Categories Section -->
+    <section class="py-12 px-4 bg-rose-50">
+        <div class="container mx-auto">
+            <h2 class="heading-font text-3xl font-bold text-center mb-12">Shop By Category</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
+                    <img src="./0213.png" alt="Dresses" class="w-full h-48 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="heading-font text-xl font-semibold">Shirts</h3>
+                        <p class="text-gray-600 text-sm mt-1">Classic & stylish shirts</p>
+                    </div>
+                </a>
+                
+                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
+                    <img src="./Dupatta1.png" alt="Tops" class="w-full h-48 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="heading-font text-xl font-semibold">Dupattas</h3>
+                        <p class="text-gray-600 text-sm mt-1">Elegant & colorful dupattas</p>
+                    </div>
+                </a>
+                
+                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
+                    <img src="./Cap3.jpg" alt="Bottoms" class="w-full h-48 object-cover">
+                    <div class="p-4 text-center">
+                        <h3 class="heading-font text-xl font-semibold">Caps</h3>
+                        <p class="text-gray-600 text-sm mt-1">Trendy & fashionable caps</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="./Founder1.jpeg" alt="About Adored Vintage" class="rounded-lg shadow-md w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="heading-font text-3xl font-bold mb-6">Our Story</h2>
+                    <p class="text-gray-600 mb-4">rang-e-hunar is a thoughtfully curated collection of timeless, feminine pieces inspired by vintage style. We believe in slow fashion, quality craftsmanship, and pieces that tell a story.</p>
+                    <p class="text-gray-600 mb-6">Each item in our collection is chosen with care, whether it's a vintage treasure from decades past or a modern piece designed with vintage inspiration.</p>
+                    <button class="border border-gray-800 text-gray-800 font-medium px-6 py-2 hover:bg-gray-800 hover:text-white transition duration-300">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-12 px-4 bg-amber-50">
+        <div class="container mx-auto max-w-2xl text-center">
+            <h2 class="heading-font text-3xl font-bold mb-4">Join Our Community</h2>
+            <p class="text-gray-600 mb-6">Sign up for our newsletter to receive updates on new arrivals, exclusive offers, and styling inspiration.</p>
+            <form class="flex flex-col sm:flex-row gap-4">
+                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-amber-500">
+                <button type="submit" class="bg-gray-800 text-white font-medium px-6 py-3 rounded hover:bg-gray-700 transition duration-300">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="heading-font text-xl font-bold mb-4">rang-e-hunar</h3>
+                    <p class="text-gray-400">Timeless feminine style inspired by vintage elegance.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Shop</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">New Arrivals</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Shirts</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Dupattas</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Caps</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Vintage</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Information</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Shipping & Returns</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Size Guide</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <p class="text-gray-400">1234 Vintage Lane<br>Portland, OR 97201</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>© 2023 rang-e-hunar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const mobileMenu = document.querySelector('.md\\:hidden.hidden');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+            // Product card hover effect
+            const productCards = document.querySelectorAll('.product-card');
+            productCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.1)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = '';
+                    this.style.boxShadow = '';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
