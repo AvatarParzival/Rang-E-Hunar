@@ -260,48 +260,79 @@
     </div>
 </section>
 
-    <section class="py-12 px-4 bg-rose-50">
-        <div class="container mx-auto">
-            <h2 class="heading-font text-3xl font-bold text-center mb-12">Shop By Category</h2>
+<!-- Categories Section -->
+<section class="py-12 px-4 bg-rose-50 relative">
+    <div class="container mx-auto px-4">
+        <h2 class="heading-font text-3xl font-bold text-center mb-12">Shop By Category</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" style="margin: 0 auto; max-width: 1200px;">
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
-                    <img src="./0213.png" alt="Dresses" class="w-full h-48 object-cover">
-                    <div class="p-4 text-center">
+            <!-- Category 1 - Shirts -->
+            <div class="flex justify-center">
+                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg" 
+                   style="width: 350px; height: 450px; display: flex; flex-direction: column;">
+                    <div style="height: 750px; overflow: hidden; position: relative;">
+                        <img src="./0213.png" alt="Shirts" 
+                             class="w-full h-full object-cover" 
+                             style="object-position: 50% 43%; transform: scale(1.0);">
+                    </div>
+                    <div class="p-4 text-center" style="height: 150px; display: flex; flex-direction: column; justify-content: center;">
                         <h3 class="heading-font text-xl font-semibold">Shirts</h3>
                         <p class="text-gray-600 text-sm mt-1">Classic & stylish shirts</p>
                     </div>
                 </a>
-                
-                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
-                    <img src="./Dupatta1.png" alt="Tops" class="w-full h-48 object-cover">
-                    <div class="p-4 text-center">
+            </div>
+
+            <!-- Category 2 - Dupattas -->
+            <div class="flex justify-center">
+                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg" 
+                   style="width: 350px; height: 450px; display: flex; flex-direction: column;">
+                    <div style="height: 750px; overflow: hidden; position: relative;">
+                        <img src="./Dupatta1.png" alt="Dupattas" 
+                             class="w-full h-full object-cover" 
+                             style="object-position: 60% 100%;transform: scale(1.0);">
+                    </div>
+                    <div class="p-4 text-center" style="height: 150px; display: flex; flex-direction: column; justify-content: center;">
                         <h3 class="heading-font text-xl font-semibold">Dupattas</h3>
                         <p class="text-gray-600 text-sm mt-1">Elegant & colorful dupattas</p>
                     </div>
                 </a>
-                
-                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg">
-                    <img src="./Cap3.jpg" alt="Bottoms" class="w-full h-48 object-cover">
-                    <div class="p-4 text-center">
+            </div>
+
+            <!-- Category 3 - Caps -->
+            <div class="flex justify-center">
+                <a href="#" class="category-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg" 
+                   style="width: 350px; height: 450px; display: flex; flex-direction: column;">
+                    <div style="height: 750px; overflow: hidden; position: relative;">
+                        <img src="./Cap.jpg" alt="Caps" 
+                             class="w-full h-full object-cover" 
+                             style="object-position: 52% 15%; transform: scale(1.0);">
+                    </div>
+                    <div class="p-4 text-center" style="height: 150px; display: flex; flex-direction: column; justify-content: center;">
                         <h3 class="heading-font text-xl font-semibold">Caps</h3>
                         <p class="text-gray-600 text-sm mt-1">Trendy & fashionable caps</p>
                     </div>
                 </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
+    <!-- About Section -->
     <section class="py-16 px-4 bg-white">
         <div class="container mx-auto max-w-4xl">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                     <img src="./Founder1.jpeg" alt="About Adored Vintage" class="rounded-lg shadow-md w-full">
+                    <div class="mt-4 text-center italic text-gray-600 heading-font" style="font-size: 14px;">
+                        "One of Our Esteemed Founder: Saliha Shahzadi"
+                    </div>
+
                 </div>
                 <div class="md:w-1/2">
                     <h2 class="heading-font text-3xl font-bold mb-6">Our Story</h2>
-                    <p class="text-gray-600 mb-4">rang-e-hunar is a thoughtfully curated collection of timeless, feminine pieces inspired by vintage style. We believe in slow fashion, quality craftsmanship, and pieces that tell a story.</p>
-                    <p class="text-gray-600 mb-6">Each item in our collection is chosen with care, whether it's a vintage treasure from decades past or a modern piece designed with vintage inspiration.</p>
+                    <p class="text-gray-600 mb-4">Rang-E-Hunar is a thoughtfully curated collection of timeless, hand-painted pieces inspired by our rich culture and the beauty of nature. We believe in the art of handmade craftsmanship, quality, and creating pieces that tell a meaningful story..</p>
+                    <p class="text-gray-600 mb-6">Each item in our collection is carefully selected, whether it’s a hand-painted dupatta or a classic shirt designed with nature’s elegance in mind.</p>
                     <button class="border border-gray-800 text-gray-800 font-medium px-6 py-2 hover:bg-gray-800 hover:text-white transition duration-300">
                         Learn More
                     </button>
@@ -310,18 +341,54 @@
         </div>
     </section>
 
-    <section class="py-12 px-4 bg-amber-50">
-        <div class="container mx-auto max-w-2xl text-center">
-            <h2 class="heading-font text-3xl font-bold mb-4">Join Our Community</h2>
-            <p class="text-gray-600 mb-6">Sign up for our newsletter to receive updates on new arrivals, exclusive offers, and styling inspiration.</p>
-            <form class="flex flex-col sm:flex-row gap-4">
-                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-amber-500">
-                <button type="submit" class="bg-gray-800 text-white font-medium px-6 py-3 rounded hover:bg-gray-700 transition duration-300">
-                    Subscribe
-                </button>
-            </form>
-        </div>
-    </section>
+<!-- Feedback Section -->
+<section class="py-12 px-4 bg-amber-50">
+    <div class="container mx-auto max-w-2xl">
+        <h2 class="heading-font text-3xl font-bold mb-6 text-center">We'd Love Your Feedback</h2>
+        
+        <form class="space-y-6">
+            <!-- Name Field -->
+            <div>
+                <label for="name" class="block text-gray-700 mb-2">Your Name</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    placeholder="e.g. John Doe"
+                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-amber-500"
+                >
+            </div>
+            
+            <!-- Email Field -->
+            <div>
+                <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    placeholder="your@email.com"
+                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-amber-500"
+                >
+            </div>
+            
+            <!-- Feedback Field -->
+            <div>
+                <label for="feedback" class="block text-gray-700 mb-2">Your Thoughts</label>
+                <textarea 
+                    id="feedback" 
+                    placeholder="What's on your mind?"
+                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-amber-500 h-32"
+                ></textarea>
+            </div>
+            
+            <!-- Submit Button -->
+            <button 
+                type="submit" 
+                class="w-full bg-gray-800 text-white font-medium px-6 py-3 rounded hover:bg-gray-700 transition duration-300"
+            >
+                Send Feedback
+            </button>
+        </form>
+    </div>
+</section>
 
     <footer class="bg-gray-900 text-white py-12 px-4">
         <div class="container mx-auto">
