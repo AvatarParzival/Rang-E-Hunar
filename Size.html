@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size Guide | Rang-E-Hunar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .nav-link:hover {
+            color: #b38b6d;
+        }
+        
+        .size-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        .size-table th, .size-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        .size-table th {
+            background-color: #f8f8f8;
+            font-weight: 600;
+        }
+        
+        .size-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="border-b border-gray-200 sticky top-0 z-50 bg-white">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <h1 class="heading-font text-2xl md:text-3xl font-bold">Rang-E-Hunar</h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+                <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+                <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+                <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden hidden bg-white border-b border-gray-200 py-4 px-4">
+        <div class="flex flex-col space-y-4">
+            <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+            <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+            <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+            <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-64 bg-cover bg-center" style="background-image: url('https://i.ibb.co/XrTDbdCJ/Rang-E-Hunar.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+            <div class="text-center px-3">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold text-white mb-4">Size Guide</h2>
+                <p class="text-xl text-white mb-6">Find your perfect fit</p>
+                                            <a href="./index.html" class="inline-block bg-white text-gray-800 font-medium px-8 py-3 hover:bg-gray-100 transition duration-300">
+                Home
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Size Guide Content -->
+    <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="mb-12">
+<h3 class="heading-font text-2xl font-bold mb-6 text-center">How to Measure</h3>
+<div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Width</h4>
+                        <p class="text-gray-600">Measure across the chest/bust from seam to seam while the garment is laid flat.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Length</h4>
+                        <p class="text-gray-600">Measure from the highest point of the shoulder to the bottom hem.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="heading-font text-2xl font-bold mb-6">Size Chart (in inches)</h3>
+                <div class="overflow-x-auto">
+                    <table class="size-table">
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Width</th>
+                                <th>Length</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>XS</td>
+                                <td>16.5</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>S</td>
+                                <td>18</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>20</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td>L</td>
+                                <td>22</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>XL</td>
+                                <td>24</td>
+                                <td>31</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="mt-12 bg-amber-50 p-6 rounded-lg">
+                <h4 class="heading-font text-xl font-bold mb-4">Need Help?</h4>
+                <p class="text-gray-600 mb-4">If you're unsure about your size, feel free to contact us for personalized sizing advice.</p>
+                <a href="./Contact.html" class="border border-gray-800 text-gray-700 font-medium px-6 py-2 hover:bg-gray-800 hover:text-white transition duration-300">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="heading-font text-xl font-bold mb-4">Rang-E-Hunar</h3>
+                    <p class="text-gray-400">Art In Every Thread</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Shop</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./Shirts.html" class="text-gray-400 hover:text-white">Shirts</a></li>
+                        <li><a href="./Dupattas.html" class="text-gray-400 hover:text-white">Dupattas</a></li>
+                        <li><a href="./Caps.html" class="text-gray-400 hover:text-white">Caps</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Information</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./About.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="./Contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="./Size.html" class="text-gray-400 hover:text-white">Size Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:rangehunarr@gmail.com" class="text-gray-400 hover:text-white text-xl"><i class="far fa-envelope"></i></a>
+                    </div>
+                    <p class="text-gray-400">Made with love by Pakistan</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>© 2025 Rang-E-Hunar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const mobileMenu = document.querySelector('.md\\:hidden.hidden');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collection | Rang-E-Hunar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fafafa;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .nav-link:hover {
+            color: #b38b6d;
+            transition: color 0.3s ease;
+        }
+        
+        .product-card {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-media-container {
+            height: 320px;
+            overflow: hidden;
+            position: relative;
+            background-color: #f5f5f5;
+        }
+        
+        .product-media {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .product-card:hover .product-media {
+            transform: scale(1.05);
+        }
+        
+        .ribbon {
+            position: absolute;
+            top: 15px;
+            right: -30px;
+            transform: rotate(45deg);
+            width: 120px;
+            padding: 5px 0;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+            background-color: #fef3c7;
+            color: #92400e;
+            z-index: 10;
+        }
+        
+        .filter-btn {
+            transition: all 0.2s ease;
+        }
+        
+        .filter-btn.active {
+            background-color: #fecaca;
+            color: #991b1b;
+            border-color: #fecaca;
+        }
+        
+        .quick-view-btn {
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            right: 0;
+            background-color: rgba(255,255,255,0.9);
+            padding: 12px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .product-card:hover .quick-view-btn {
+            bottom: 0;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="border-b border-gray-200 sticky top-0 z-50 bg-white">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <h1 class="heading-font text-2xl md:text-3xl font-bold">Rang-E-Hunar</h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+                <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+                <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+                <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="md:hidden hidden bg-white border-b border-gray-200 py-4 px-4">
+        <div class="flex flex-col space-y-4">
+            <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+            <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+            <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+            <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-64 bg-cover bg-center" style="background-image: url('https://i.ibb.co/XrTDbdCJ/Rang-E-Hunar.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+            <div class="text-center px-3">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold text-white mb-4">Our Handcrafted Collection</h2>
+                <p class="text-xl text-white mb-6">Each piece is thoughtfully created to bring art into your everyday life</p>
+                            <a href="./index.html" class="inline-block bg-white text-gray-800 font-medium px-8 py-3 hover:bg-gray-100 transition duration-300">
+                Home
+            </a>
+            </div>
+        </div>
+    </section>
+
+               <!-- Products Grid -->
+             <section class="px-4 py-12">
+  <div class="container mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+                <!-- Product 1 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <video class="product-media" autoplay muted playsinline>
+                            <source src="./Beige F.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Flamoura</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Flamingo Shirt</h3>
+                        <p class="text-gray-600 text-sm mb-4">Capturing the elegance and charm of the flamingo in delicate brushstrokes.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1225</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <video class="product-media" autoplay muted playsinline>
+                            <source src="./Pink F.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Bouquet</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Rose Shirt</h3>
+                        <p class="text-gray-600 text-sm mb-4">Encasing the beauty of the harmless roses in vibrant pink hues.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1225</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <video class="product-media" autoplay muted playsinline>
+                            <source src="./Black F.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Signature</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Rang-E-Hunar Shirt</h3>
+                        <p class="text-gray-600 text-sm mb-4">Personification of art, passion, and craft in bold black.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1225</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3.2 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <video class="product-media" autoplay muted playsinline>
+                            <source src="./0006-0196.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Go Away</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Chal Bey</h3>
+                        <p class="text-gray-600 text-sm mb-4">Art of expressing a ton without a sinlge word being spoken.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1225</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                                <!-- Product 3.2 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <video class="product-media" autoplay muted playsinline>
+                            <source src="./Imran.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Leader</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">KAPTAN</h3>
+                        <p class="text-gray-600 text-sm mb-4">Hand-painted art of Imran Khan, capturing his iconic charisma in bold, expressive brushstrokes.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1225</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <img class="product-media" src="./Dupatta2.png" alt="Mehnaz Dupatta">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Gul</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Gulzar</h3>
+                        <p class="text-gray-600 text-sm mb-4">Roses bloom with quiet beauty and bold color.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 3000</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <img class="product-media" src="./Serene Elegance in Traditional Wear.png" alt="Mehnaz Dupatta">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Blue Hydrangea</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Mehnaz</h3>
+                        <p class="text-gray-600 text-sm mb-4">Blue petals, like pieces of sky kissed by silence.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 2550</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <img class="product-media" src="./Radiance in Beige and Blooms.png">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Carnation</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Gulrooh</h3>
+                        <p class="text-gray-600 text-sm mb-4">Red petals of love, hand-painted with grace and passion.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 2000</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <img class="product-media" src="./Cap.jpg" alt="Blossom Cap">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Blue Bloom</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Blossom Cap</h3>
+                        <p class="text-gray-600 text-sm mb-4">A gentle dance of wildflowers on denim — soft, serene, and full of grace.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1200</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <img class="product-media" src="./Cap2.jpg">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Flora Noir</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Rosewood</h3>
+                        <p class="text-gray-600 text-sm mb-4">Denim touched by pink petals. Bold, delicate, and timeless.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1200</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="product-media-container">
+                        <img class="product-media" src="./Cap3.jpg">
+                    </div>
+                    <div class="p-4">
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="text-gray-500 text-sm">Midnight Flutter</span>
+                        </div>
+                        <h3 class="heading-font text-xl font-semibold mb-2">Noirfly</h3>
+                        <p class="text-gray-600 text-sm mb-4">Soft wings flutter on black denim. Elegant and mysterious.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-gray-800">PKR 1200</span>
+                    <a href="https://example.com/buy-now" class="bg-rose-600 hover:bg-rose-800 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-300">
+                Buy Now
+                    </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </section>
+
+
+    <!-- Values Section -->
+    <section class="py-16 px-4 bg-rose-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="text-rose-600 text-3xl mb-4">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="heading-font text-xl font-semibold mb-2">Handcrafted Artistry</h3>
+                    <p class="text-gray-600">Each piece is individually hand-painted by emerging artists, making every item unique.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-rose-600 text-3xl mb-4">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="heading-font text-xl font-semibold mb-2">Ethically Made</h3>
+                    <p class="text-gray-600">We use sustainable materials and support fair wages for all our artisans.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="text-rose-600 text-3xl mb-4">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="heading-font text-xl font-semibold mb-2">Community Impact</h3>
+                    <p class="text-gray-600">Proceeds help support young artists through new opportunities created.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="heading-font text-xl font-bold mb-4">Rang-E-Hunar</h3>
+                    <p class="text-gray-400">Art In Every Thread</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Shop</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./Shirts.html" class="text-gray-400 hover:text-white">Shirts</a></li>
+                        <li><a href="./Dupattas.html" class="text-gray-400 hover:text-white">Dupattas</a></li>
+                        <li><a href="./Caps.html" class="text-gray-400 hover:text-white">Caps</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Information</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./About.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="./Contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="./Size.html" class="text-gray-400 hover:text-white">Size Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:rangehunarr@gmail.com" class="text-gray-400 hover:text-white text-xl"><i class="far fa-envelope"></i></a>
+                    </div>
+                    <p class="text-gray-400">Made with love by Pakistan</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>© 2025 Rang-E-Hunar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const mobileMenu = document.querySelector('.md\\:hidden.hidden');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // FAQ Accordion
+            const faqButtons = document.querySelectorAll('.bg-white button');
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    answer.classList.toggle('hidden');
+                    
+                    const icon = this.querySelector('i');
+                    icon.classList.toggle('fa-chevron-down');
+                    icon.classList.toggle('fa-chevron-up');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

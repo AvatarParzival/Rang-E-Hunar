@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Rang-E-Hunar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .nav-link:hover {
+            color: #b38b6d;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="border-b border-gray-200 sticky top-0 z-50 bg-white">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <h1 class="heading-font text-2xl md:text-3xl font-bold">Rang-E-Hunar</h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+                <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+                <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+                <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="md:hidden hidden bg-white border-b border-gray-200 py-4 px-4">
+        <div class="flex flex-col space-y-4">
+            <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+            <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+            <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+            <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-64 bg-cover bg-center" style="background-image: url('https://i.ibb.co/XrTDbdCJ/Rang-E-Hunar.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+            <div class="text-center px-3">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold text-white mb-4">Contact Us</h2>
+                <p class="text-xl text-white mb-6">We'd love to hear from you!</p>
+                <a href="./index.html" class="inline-block bg-white text-gray-800 font-medium px-8 py-3 hover:bg-gray-100 transition duration-300">
+                Home
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info Section -->
+    <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row gap-12">
+                <!-- Contact Form -->
+                <div class="md:w-1/2">
+                    <h3 class="heading-font text-2xl font-bold mb-6">Send Us a Message</h3>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-b38b6d">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-b38b6d">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-gray-700 mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-b38b6d">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 mb-2">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-b38b6d"></textarea>
+                        </div>
+                        <button class="border border-gray-800 text-gray-700 font-medium px-6 py-2 hover:bg-gray-800 hover:text-white transition duration-300">
+                        Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="md:w-1/2">
+                    <h3 class="heading-font text-2xl font-bold mb-6">Get In Touch</h3>
+                    <div class="space-y-8">
+<!-- Email -->
+<div class="flex items-start space-x-4">
+    <div class="text-b38b6d text-xl mt-1">
+        <i class="far fa-envelope"></i>
+    </div>
+    <div>
+        <h4 class="font-bold text-lg">Email</h4>
+        <a href="mailto:rangehunarr@gmail.com" class="text-gray-600 hover:text-b38b6d transition duration-300">
+            rangehunarr@gmail.com
+        </a>
+    </div>
+</div>
+                        
+                        <!-- Phone -->
+                        <div class="flex items-start space-x-4">
+                            <div class="text-b38b6d text-xl mt-1">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg">Phone</h4>
+                                <p class="text-gray-600">+92 325 7281281</p>
+                            </div>
+                        </div>
+
+<!-- WhatsApp Contact -->
+<div class="flex items-start space-x-4 mt-6">
+    <div class="text-b38b6d text-2xl mt-1">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+    <div>
+        <h4 class="font-bold text-lg">WhatsApp</h4>
+        <a href="https://wa.me/923257281281" class="text-gray-600 hover:text-b38b6d transition duration-300">
+            +92 325 7281281
+        </a>
+    </div>
+</div>
+                        
+                        <!-- Social Media -->
+                        <div class="pt-4">
+                            <h4 class="font-bold text-lg mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="text-gray-700 hover:text-b38b6d text-xl">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="text-gray-700 hover:text-b38b6d text-xl">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-4 bg-rose-50">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="heading-font text-3xl font-bold mb-12 text-center">Frequently Asked Questions</h2>
+            
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full text-left">
+                        <h3 class="font-medium text-lg">How can I place a custom order?</h3>
+                        <i class="fas fa-chevron-down text-b38b6d"></i>
+                    </button>
+                    <p class="mt-3 text-gray-600 hidden">
+                        You can place a custom order by contacting us via email or WhatsApp. We'll discuss your requirements and provide a timeline for completion.
+                    </p>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full text-left">
+                        <h3 class="font-medium text-lg">What's your return policy?</h3>
+                        <i class="fas fa-chevron-down text-b38b6d"></i>
+                    </button>
+                    <p class="mt-3 text-gray-600 hidden">
+                        We accept returns within 7 days of delivery for unused items in original condition. Custom orders are non-refundable.
+                    </p>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <button class="flex justify-between items-center w-full text-left">
+                        <h3 class="font-medium text-lg">Do you ship internationally?</h3>
+                        <i class="fas fa-chevron-down text-b38b6d"></i>
+                    </button>
+                    <p class="mt-3 text-gray-600 hidden">
+                        Yes! We ship worldwide. Shipping costs and delivery times vary depending on your location.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="heading-font text-xl font-bold mb-4">Rang-E-Hunar</h3>
+                    <p class="text-gray-400">Art In Every Thread</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Shop</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./Shirts.html" class="text-gray-400 hover:text-white">Shirts</a></li>
+                        <li><a href="./Dupattas.html" class="text-gray-400 hover:text-white">Dupattas</a></li>
+                        <li><a href="./Caps.html" class="text-gray-400 hover:text-white">Caps</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Information</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./About.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="./Contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="./Size.html" class="text-gray-400 hover:text-white">Size Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:rangehunarr@gmail.com" class="text-gray-400 hover:text-white text-xl"><i class="far fa-envelope"></i></a>
+                    </div>
+                    <p class="text-gray-400">Made with love by Pakistan</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>© 2025 Rang-E-Hunar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const mobileMenu = document.querySelector('.md\\:hidden.hidden');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // FAQ Accordion
+            const faqButtons = document.querySelectorAll('.bg-white button');
+            faqButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    answer.classList.toggle('hidden');
+                    
+                    const icon = this.querySelector('i');
+                    icon.classList.toggle('fa-chevron-down');
+                    icon.classList.toggle('fa-chevron-up');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
