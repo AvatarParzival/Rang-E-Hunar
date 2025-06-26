@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Rang-E-Hunar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .nav-link:hover {
+            color: #b38b6d;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .marquee {
+            animation: scroll 20s linear infinite;
+            white-space: nowrap;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        
+        .ribbon {
+            position: absolute;
+            top: 10px;
+            right: -30px;
+            transform: rotate(45deg);
+            width: 120px;
+            padding: 5px 0;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="border-b border-gray-200 sticky top-0 z-50 bg-white">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+                <h1 class="heading-font text-2xl md:text-3xl font-bold">Rang-E-Hunar</h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+                <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+                <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+                <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div class="md:hidden hidden bg-white border-b border-gray-200 py-4 px-4">
+        <div class="flex flex-col space-y-4">
+            <a href="./Shirts.html" class="nav-link font-medium">Shirts</a>
+            <a href="./Dupattas.html" class="nav-link font-medium">Dupattas</a>
+            <a href="./Caps.html" class="nav-link font-medium">Caps</a>
+            <a href="./Contact.html" class="nav-link font-medium text-b38b6d">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative h-96 bg-cover bg-center" style="background-image: url('https://i.ibb.co/XrTDbdCJ/Rang-E-Hunar.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+            <div class="text-center px3">
+                <h2 class="heading-font text-4xl md:text-5xl font-bold text-white mb-4">About Rang-E-Hunar</h2>
+                <p class="text-xl text-white mb-6">Know Us Better!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <div class="bg-rose-50 py-4 overflow-hidden">
+        <div class="marquee flex items-center">
+            <div class="flex items-center space-x-12 px-4">
+                <span class="text-gray-700 text-lg">Shop our selection of thoughtfully crafted hand painted dupattas, shirts, and caps ❧</span>
+                <span class="text-gray-700 text-lg">Unique & one of a kind finds for your wardrobe and home ❧</span>
+            </div>
+            <div class="flex items-center space-x-12 px-4">
+                <span class="text-gray-700 text-lg">❧ Crafted by the talented and the emerging youth ❧</span>
+                <span class="text-gray-700 text-lg">Shop our selection of thoughtfully crafted hand painted dupattas, shirts, and caps ❧</span>
+                <span class="text-gray-700 text-lg">Unique & one of a kind finds for your wardrobe and home ❧</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="py-16 px-4 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="./Dupatta1.png" alt="About Adored Vintage" class="rounded-lg shadow-md w-full">
+                    <div class="mt-4 text-center italic text-gray-600 heading-font" style="font-size: 14px;">
+                        "Our Hand Painted Dupatta: Gulzar"
+                    </div>
+
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="heading-font text-3xl font-bold mb-6">Our Story</h2>
+                    <p class="text-gray-600 mb-4">Rang-E-Hunar is a thoughtfully curated collection of timeless, hand-painted pieces inspired by our rich culture and the beauty of nature. We believe in the art of handmade craftsmanship, quality, and creating pieces that tell a meaningful story..</p>
+                    <p class="text-gray-600 mb-6">Each item in our collection is carefully selected, whether it’s a hand-painted dupatta or a classic shirt designed with nature’s elegance in mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- About Section -->
+<section class="py-16 px-4 bg-rose-50 relative">
+    <div class="container mx-auto max-w-4xl">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 md:order-2 mb-8 md:mb-0 md:pl-8">
+                <img src="./Shirt.png" alt="About Adored Vintage" class="rounded-lg shadow-md w-full">
+                <div class="mt-4 text-center italic text-gray-600 heading-font" style="font-size: 14px;">
+                    "Our Classic T-Shirt: Rose "
+                </div>
+            </div>
+            <div class="md:w-1/2 md:order-1">
+                <h2 class="heading-font text-3xl font-bold mb-6">Mission</h2>
+                <p class="text-gray-600 mb-4">After observing the social dynamics and limited opportunities available to many girls in Pakistan, a group of passionate individuals came together to form what is now known as Rang-E-Hunar. While our focus is on delivering premium-quality, hand-painted garments rooted in tradition and nature, our deeper purpose lies in empowerment.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="py-16 px-4 bg-amber-50">
+        <div class="container mx-auto max-w-4xl">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="./Cap.jpg" alt="About Adored Vintage" class="rounded-lg shadow-md w-full">
+                    <div class="mt-4 text-center italic text-gray-600 heading-font" style="font-size: 14px;">
+                        "Our Trendy Denim Cap: Blossom"
+                    </div>
+
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="heading-font text-3xl font-bold mb-6">Purpose</h2>
+                    <p class="text-gray-600 mb-4">Rang-E-Hunar was created to give talented young girls a platform: a space where they can express themselves, earn with dignity, and tell their stories through color and craft. We believe in the strength of youth and the untapped potential of girls who simply need a chance to be seen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="heading-font text-xl font-bold mb-4">Rang-E-Hunar</h3>
+                    <p class="text-gray-400">Art In Every Thread</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Shop</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./Shirts.html" class="text-gray-400 hover:text-white">Shirts</a></li>
+                        <li><a href="./Dupattas.html" class="text-gray-400 hover:text-white">Dupattas</a></li>
+                        <li><a href="./Caps.html" class="text-gray-400 hover:text-white">Caps</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Information</h4>
+                    <ul class="space-y-2">
+                        <li><a href="./About.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="./Contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="./Size.html" class="text-gray-400 hover:text-white">Size Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold mb-4">Connect</h4>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="mailto:rangehunarr@gmail.com" class="text-gray-400 hover:text-white text-xl">
+                        <i class="far fa-envelope"></i>
+                        </a>
+                    </div>
+                    <p class="text-gray-400">Made with love by Pakistan</p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
+                <p>© 2025 Rang-E-Hunar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('button.md\\:hidden');
+            const mobileMenu = document.querySelector('.md\\:hidden.hidden');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+
+            const productCards = document.querySelectorAll('.product-card');
+            productCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.boxShadow = '0 10px 25px rgba(0, 0, 0, 0.1)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = '';
+                    this.style.boxShadow = '';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
