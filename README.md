@@ -1,9 +1,8 @@
 <p align="center">
   <img src="logo.png" alt="Logo" width="50" style="vertical-align: middle;"/>
-  <span style="font-size: 20em;"><i>RANG-E-HUNAR</i></span>
+  <span style="font-size: 36px;"><i>RANG-E-HUNAR</i></span>
 </p>
 <p align="center"><em>Unleashing Creativity • Inspiring Talent • Transforming Culture</em></p>
-
 
 ---
 
