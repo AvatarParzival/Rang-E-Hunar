@@ -1,6 +1,8 @@
 <h1 align="center">Rang‑E‑Hunar</h1>
 <p align="center"><em>Unleashing Creativity • Inspiring Talent • Transforming Culture</em></p>
 
+---
+
 ### Table of Contents  
 - [Overview](#-overview)  
 - [Get Started](#-get-started)  
