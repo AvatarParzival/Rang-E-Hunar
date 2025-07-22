@@ -12,9 +12,11 @@
 - [Usage](#usage)  
 - [Features](#features)  
 - [Development & Testing](#development--testing)  
-- [Contributing](#contributing)  
+- [Contributing](#-contributing)  
 - [License](#license)  
 - [About](#about)
+
+---
 
 ## 🚀 Get Started
 
