@@ -1,8 +1,7 @@
-<div id="top" class="">
-
 <div align="center" class="text-center">
 <h1>RANG-E-HUNAR</h1>
 <p><em>Unleashing Creativity, Inspiring Talent, Transforming Culture</em></p>
+</div>
 
 
 
