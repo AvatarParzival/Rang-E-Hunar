@@ -1,7 +1,7 @@
 <div align="center">
   
   <img src="logo.png" alt="Logo" width="50" style="vertical-align: middle;">
-  **<i>RANG‑E‑HUNAR</i>**
+  <i>RANG‑E‑HUNAR</i>
   
   *Unleashing Creativity • Inspiring Talent • Transforming Culture*
 </div>
