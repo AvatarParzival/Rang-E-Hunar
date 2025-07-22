@@ -1,9 +1,10 @@
-<p align="center">
+<div align="center">
+  
   <img src="logo.png" alt="Logo" width="50" style="vertical-align: middle;">
-  <strong><i>RANG‑E‑HUNAR</i></strong>
-</p>
-
-<p align="center"><em>Unleashing Creativity • Inspiring Talent • Transforming Culture</em></p>
+  **<i>RANG‑E‑HUNAR</i>**
+  
+  *Unleashing Creativity • Inspiring Talent • Transforming Culture*
+</div>
 
 
 
