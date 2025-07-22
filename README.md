@@ -17,8 +17,8 @@ You only need a modern browser — no build tools or frameworks required.
    git clone https://github.com/AvatarParzival/Rang-E-Hunar.git
 Navigate to the project folder:
 
-```bash
-cd Rang-E-Hunar
+   ```bash
+   cd Rang-E-Hunar 
 
 🧩 Usage
 Open index.html in your browser (double-click or via DevServer). Visit pages like:
