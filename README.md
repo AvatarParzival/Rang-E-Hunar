@@ -1,10 +1,7 @@
-<div align="center" class="text-center">
-<h1>RANG-E-HUNAR
-   <h2>Unleashing Creativity, Inspiring Talent, Transforming Culture</h2>
-</h1>
-<p><em>Unleashing Creativity, Inspiring Talent, Transforming Culture</em></p>
+<div align="center">
+  <h1 style="border-bottom: none !important; padding-bottom: 0 !important;">RANG-E-HUNAR</h1>
+  <p><em>Unleashing Creativity, Inspiring Talent, Transforming Culture</em></p>
 </div>
-
 
 
 ---
