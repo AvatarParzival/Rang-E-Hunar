@@ -8,7 +8,7 @@
 - [Get Started](#-get-started)  
 - [Usage](#-usage)  
 - [Features](#-features)  
-- [Development & Testing](#-development-and-testing)  
+- [Development & Testing](#%EF%B8%8F-development-and-testing)  
 - [Contributing](#-contributing)  
 - [License](#-license)  
 - [About](#-about)
