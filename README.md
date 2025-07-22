@@ -1,5 +1,7 @@
 <div align="center" class="text-center">
-<h1>RANG-E-HUNAR</h1>
+<h1>RANG-E-HUNAR
+   <p><em>Unleashing Creativity, Inspiring Talent, Transforming Culture</em></p>
+</h1>
 <p><em>Unleashing Creativity, Inspiring Talent, Transforming Culture</em></p>
 </div>
 
