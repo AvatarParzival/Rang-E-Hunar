@@ -8,7 +8,7 @@
 - [Get Started](#-get-started)  
 - [Usage](#-usage)  
 - [Features](#-features)  
-- [Development & Testing](#%EF%B8%8F-development-and-testing)  
+- [Development & Testing](#%EF%B8%8F-development--testing)  
 - [Contributing](#-contributing)  
 - [License](#-license)  
 - [About](#-about)
@@ -55,7 +55,7 @@ Supported media includes videos (`*.mp4`) and images (`*.png`, `*.jpg`).
 
 ---
 
-## 🛠️ Development and Testing  
+## 🛠️ Development & Testing  
 This is a static site — no build, test suite, or backend.  
 To serve locally, you can use a simple development server like:
 
