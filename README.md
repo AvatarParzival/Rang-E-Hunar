@@ -1,10 +1,5 @@
-# Rang‑E‑Hunar  
-*Unleashing Creativity • Inspiring Talent • Transforming Culture*
-
-## 🎨 Overview  
-**Rang‑E‑Hunar** is a multimedia-rich, responsive web showcase of handcrafted fashion products. The project emphasizes brand storytelling, seamless browsing, and modular design for an enhanced e-commerce experience.
-
----
+<h1 align="center">Rang‑E‑Hunar</h1>
+<p align="center"><em>Unleashing Creativity • Inspiring Talent • Transforming Culture</em></p>
 
 ### Table of Contents  
 - [Overview](#-overview)  
@@ -15,6 +10,11 @@
 - [Contributing](#-contributing)  
 - [License](#-license)  
 - [About](#-about)
+
+---
+
+## 🎨 Overview  
+**Rang‑E‑Hunar** is a multimedia-rich, responsive web showcase of handcrafted fashion products. The project emphasizes brand storytelling, seamless browsing, and modular design for an enhanced e-commerce experience.
 
 ---
 
@@ -98,15 +98,3 @@ This project serves as both a design showcase and a foundation for future expans
 ---
 
 > Built by [AvatarParzival](https://github.com/AvatarParzival)
-
----
-
-### Table of Contents  
-- [Overview](#overview)  
-- [Get Started](#get-started)  
-- [Usage](#usage)  
-- [Features](#features)  
-- [Development & Testing](#development--testing)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [About](#about)
