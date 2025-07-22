@@ -1,5 +1,5 @@
 <div align="center">
-  <h1 style="border-bottom: none !important; padding-bottom: 0 !important;">RANG-E-HUNAR</h1>
+  <h1 style="border: none !important; border-bottom: 0 !important; padding-bottom: 0; margin-bottom: 0;">RANG-E-HUNAR</h1>
   <p><em>Unleashing Creativity, Inspiring Talent, Transforming Culture</em></p>
 </div>
 
