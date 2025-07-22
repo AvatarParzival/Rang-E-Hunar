@@ -39,7 +39,7 @@ You only need a modern browser — no build tools or frameworks required.
 
 ## 🧩 Usage  
 Open `index.html` in your browser (double-click or via DevServer). Visit pages like:
-- `Site.html` – Main landing page  
+- `index.html` – Main landing page  
 - `Products.html`, `Shirts.html`, `Dupattas.html`, `Caps.html` – Category showcases  
 - `About.html`, `Contact.html`, `Size.html` – Additional info pages  
 
