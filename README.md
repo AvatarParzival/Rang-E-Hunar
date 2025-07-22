@@ -7,14 +7,14 @@
 ---
 
 ### Table of Contents  
-- [Overview](#overview)  
-- [Get Started](#get-started)  
-- [Usage](#usage)  
-- [Features](#features)  
-- [Development & Testing](#development--testing)  
+- [Overview](#-overview)  
+- [Get Started](#-get-started)  
+- [Usage](#-usage)  
+- [Features](#-features)  
+- [Development & Testing](#-development--testing)  
 - [Contributing](#-contributing)  
-- [License](#license)  
-- [About](#about)
+- [License](#-license)  
+- [About](#-about)
 
 ---
 
@@ -81,12 +81,19 @@ If you're new to GitHub, here’s a quick workflow:
 ---
 
 ## 📄 License  
-This project doesn’t currently include a license. If you'd like others to use/use code, consider adding an **MIT** or BSD license.
+
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, copy, modify, and distribute this project — with proper credit — under the terms of the license.
+
 
 ---
 
-## ✨ About  
-**Rang‑E‑Hunar** is a brand‑centric web platform for showcasing fashion items in a storytelling-driven, visually engaging way.
+## ✨ About
+
+**Rang‑E‑Hunar** (translated: *Colors of Craft*) is a digital space dedicated to promoting local craftsmanship and traditional fashion through a clean, visually compelling, and user-friendly website. It highlights a curated selection of handcrafted products, such as embroidered shirts, dupattas, and caps, with a strong emphasis on cultural storytelling and brand aesthetics.
+
+This project serves as both a design showcase and a foundation for future expansion into full-scale e-commerce or artist portfolio platforms. It reflects an intent to celebrate creativity and heritage while maintaining a modern, responsive web design.
+
 
 ---
 
