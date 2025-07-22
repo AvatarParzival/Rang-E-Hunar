@@ -83,11 +83,11 @@ This project doesn’t currently include a license. If you'd like others to use/
 ---
 
 ### Table of Contents  
-- [🎨 Overview](#overview)  
-- [🚀 Get Started](#get-started)  
-- [🧩 Usage](#usage)  
-- [📱 Features](#features)  
-- [🛠️ Development & Testing](#development--testing)  
-- [👥 Contributing](#contributing)  
-- [📄 License](#license)  
-- [✨ About](#about)
+- [Overview](#overview)  
+- [Get Started](#get-started)  
+- [Usage](#usage)  
+- [Features](#features)  
+- [Development & Testing](#development--testing)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [About](#about)
