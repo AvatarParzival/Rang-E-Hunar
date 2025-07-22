@@ -2,7 +2,7 @@
 *Unleashing Creativity • Inspiring Talent • Transforming Culture*
 
 ## 🎨 Overview  
-**Rang‑E‑Hunar** is a multimedia-rich, responsive web showcase of handcrafted fashion products. The project emphasizes brand storytelling, seamless browsing, and modular design for an enhanced e-commerce experience ([github.com](https://github.com/AvatarParzival/Rang-E-Hunar?utm_source=chatgpt.com)).
+**Rang‑E‑Hunar** is a multimedia-rich, responsive web showcase of handcrafted fashion products. The project emphasizes brand storytelling, seamless browsing, and modular design for an enhanced e-commerce experience.
 
 ---
 
@@ -37,7 +37,7 @@ Supported media includes videos (`*.mp4`) and images (`*.png`, `*.jpg`).
 - **Responsive design**: Works across mobile, tablet, and desktop  
 - **Multimedia integration**: Incorporates video, animation, and media-rich content for product display  
 - **Modular structure**: Organized HTML pages make updates and maintenance easy  
-- **User-centric navigation**: Clear entry points and intuitive browsing across categories ([github.com](https://github.com/AvatarParzival/Rang-E-Hunar?utm_source=chatgpt.com), [github.com](https://github.com/AvatarParzival/Rang-E-Hunar/blob/main/Site.html?utm_source=chatgpt.com))
+- **User-centric navigation**: Clear entry points and intuitive browsing across categories
 
 ---
 
@@ -74,7 +74,7 @@ This project doesn’t currently include a license. If you'd like others to use/
 ---
 
 ## ✨ About  
-**Rang‑E‑Hunar** is a brand‑centric web platform for showcasing fashion items in a storytelling-driven, visually engaging way ([slingacademy.com](https://www.slingacademy.com/article/working-with-readme-md-file-in-git-and-github/?utm_source=chatgpt.com), [profile-readme-generator.com](https://profile-readme-generator.com/?utm_source=chatgpt.com)).
+**Rang‑E‑Hunar** is a brand‑centric web platform for showcasing fashion items in a storytelling-driven, visually engaging way.
 
 ---
 
