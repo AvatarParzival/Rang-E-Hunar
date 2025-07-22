@@ -64,8 +64,10 @@ To serve locally, you can use a simple development server like:
 python3 -m http.server 8000
 ```
 
-Then open `http://localhost:8000/index.html`.
-
+Then open 
+   ```bash
+   http://localhost:8000/index.htm
+   ```  
 ---
 
 ## 👥 Contributing  
